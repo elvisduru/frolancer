@@ -1,0 +1,27 @@
+.clients {
+  border: 1px solid;
+  border-top-color:var(--cir-footer-text);
+  border-bottom-color: var(--cir-footer-text);
+  border-left: none;
+  border-right: none;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  row-gap: 40px;
+  padding: 45px 0;
+  min-height: 30px;
+  place-items: center;
+}
+
+.item {
+}
+
+@media screen and (min-width: 992px) {
+  .clients {
+    grid-template-columns: repeat(6,auto);
+    row-gap: 50px;
+    width: 1110px;
+    margin: 0 auto;
+    margin-top: 3rem;
+  }
+}
