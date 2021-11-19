@@ -28,7 +28,7 @@ Variables
   --clr-red-dark: hsl(360, 67%, 44%);
   --clr-red-light: hsl(360, 71%, 66%);
   --cir-black: #000;
-  --cir-white:#fff;
+  --cir-white: #fff;
   --clr-light-black: #222;
 
   /*--body-color--*/
@@ -36,7 +36,7 @@ Variables
   --clr-body-bg: #fff;
 
   /*--footer-color--*/
-  --cir-footer-text: #d9dbe1;
+  --cir-footer-text: #a1a3a7;
   --cir-footer-background: #0b0d17;
 
   /*--others--*/

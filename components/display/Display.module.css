@@ -1,0 +1,22 @@
+.fixed {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .fixed {
+    display: block;
+    position: absolute;
+    right: -12%;
+    top: -3%;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .fixed {
+    display: block;
+    position: absolute;
+    right: -3%;
+    top: -3%;
+  }
+}
