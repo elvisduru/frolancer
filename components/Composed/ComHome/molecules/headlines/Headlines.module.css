@@ -25,6 +25,12 @@
   margin-bottom: 15px;
 }
 
+.home {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
 @media screen and (min-width: 768px) {
   .headlines {
     min-height: 600px;
@@ -38,7 +44,15 @@
     margin-top: 1.25rem;
   }
   .img {
-    min-height: 566px;
+    /* min-height: 566px; */
     margin-bottom: 0;
+  }
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .home {
+    width: 95vw;
   }
 }

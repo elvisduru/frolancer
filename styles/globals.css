@@ -14,6 +14,7 @@ Variables
   /* dark shades of primary color*/
   --clr-primary-1: #8c30f5;
   --clr-primary-2: #6c0bdb;
+  --cir-primary-2b:#8C30F5;
   --clr-primary-3: #5407ab;
   --clr-primary-4: #3c047c;
   --clr-primary-5: #24024c;
@@ -30,10 +31,15 @@ Variables
   --cir-black: #000;
   --cir-white: #fff;
   --clr-light-black: #222;
+  --cir-service-bg:#F1E4FF;
+  --cir-service-color:#18191F;
+  --cir-service-icon-bg:#F4F5F7;
+  --cir-service-icon-color:#323232;
 
   /*--body-color--*/
   --cir-body-text: #18191f;
   --clr-body-bg: #fff;
+  --cir-body-light:#F4F5F7;
 
   /*--footer-color--*/
   --cir-footer-text: #a1a3a7;
@@ -92,7 +98,6 @@ h4,
 h5,
 h6 {
   font-family: 'Rubik', sans-serif;
-  text-transform: capitalize;
 }
 
 h1 {

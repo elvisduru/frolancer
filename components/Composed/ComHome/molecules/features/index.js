@@ -8,14 +8,14 @@ const Features = () => {
   const { title, subtitle, items } = all;
 
   return (
-    <div className={styles.features}>
+    <div className={`${styles.features} ${styles.home}`}>
       <article className={styles.header}>
         <h1>{title}</h1>
         <h4>{subtitle}</h4>
       </article>
       <article className={styles.body}>
         {items.map(item => {
-          const { id, content, title: cat,icon } = item;
+          const { id, content, title: cat, icon } = item;
           return (
             <div className={styles.item} key={id}>
               <Image

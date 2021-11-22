@@ -7,7 +7,7 @@ const Goals = () => {
   const [items, setItems] = useState(goals);
   const { title, subtitle, items: goal_items } = items;
   return (
-    <div className={styles.goals}>
+    <div className={`${styles.goals} ${styles.home}`}>
       <article className={styles.header}>
         <h1>{title}</h1>
         <h4>{subtitle}</h4>

@@ -2,12 +2,24 @@
   padding: 40px 0;
 }
 
-@media screen and (min-width:768px) {
+.home {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 768px) {
   .heading {
     display: grid;
     grid-template-columns: 40% 45%;
     column-gap: 70px;
     padding: 64px 0;
     margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .home {
+    width: 95vw;
   }
 }

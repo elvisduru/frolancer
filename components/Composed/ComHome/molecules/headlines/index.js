@@ -4,7 +4,7 @@ import { FaAngleDoubleRight } from 'react-icons/fa';
 
 const Headlines = () => {
   return (
-    <div className={styles.headlines}>
+    <div className={`${styles.headlines} ${styles.home}`}>
       <article className={styles.img}>
         <Image
           src='/images/Client Photo.png'
