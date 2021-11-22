@@ -2,10 +2,6 @@
   min-height: 40vh;
 }
 
-.fixed {
-  display: none;
-}
-
 .middle {
   display: none;
 }
@@ -83,23 +79,17 @@
     font-size: 13px;
     transition: var(--transition);
   }
-.hero_form form {
-   box-shadow: var(--light-shadow);
-}
-.mail_icon {
-  font-size: 1.6rem;
-  display: flex;
-  align-items: center;
-}
+  .hero_form form {
+    box-shadow: var(--light-shadow);
+  }
+  .mail_icon {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+  }
 
   .hero {
-    min-height: 95vh;
-  }
-  .fixed {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
+    min-height: 55vh;
   }
   .middle {
     display: block;
@@ -125,5 +115,12 @@
   }
   .hero_form {
     margin-top: 2rem;
+  }
+}
+
+
+@media screen and (min-width:1200px) {
+  .hero {
+    min-height: 95vh;
   }
 }
