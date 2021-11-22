@@ -1,5 +1,5 @@
 .hero {
-  min-height: 40vh;
+  min-height: 85vh;
 }
 
 .middle {
@@ -67,9 +67,28 @@
 
 .fill {
   width: 100%;
+  min-height: 300px;
 }
 
+
+.home {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width:768px){
+   .hero {
+    min-height: 60vh;
+  }
+}
+
+
+
 @media screen and (min-width: 992px) {
+   .home {
+    width: 95vw;
+  }
   .form_btn {
     background: var(--clr-primary-1);
     color: var(--cir-white);
@@ -86,10 +105,6 @@
     font-size: 1.6rem;
     display: flex;
     align-items: center;
-  }
-
-  .hero {
-    min-height: 55vh;
   }
   .middle {
     display: block;

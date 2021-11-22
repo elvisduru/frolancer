@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <div className={styles.hero}>
+    <div className={`${styles.hero} ${styles.home}`}>
       <article className={styles.hero_content}>
         <div className={styles.hero_video}>
           <Video />

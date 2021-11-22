@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Clients = () => {
   return (
-    <div className={styles.clients}>
+    <div className={`${styles.clients} ${styles.home}`}>
       <div className={styles.item}>
         <Image
           src='/logo/bob.png'

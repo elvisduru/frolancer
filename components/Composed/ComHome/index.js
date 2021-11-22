@@ -4,8 +4,8 @@ import Clients from './molecules/clients';
 import Goals from './molecules/goals';
 import Headlines from './molecules/headlines';
 import Extra from './molecules/Extra';
-import Cta from './molecules/cta/Cta';
-import Services from './molecules/services/Services';
+import Cta from './molecules/cta';
+import Services from './molecules/services';
 
 const ComHome = () => {
   return (
