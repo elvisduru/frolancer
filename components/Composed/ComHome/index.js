@@ -1,9 +1,9 @@
-import Hero from './molecules/hero';
-import Features from './molecules/Features';
-import Clients from './molecules/clients';
-import Goals from './molecules/goals';
-import Headlines from './molecules/headlines';
-import Extra from './molecules/Extra';
+import Hero from "./molecules/hero";
+import Features from "./molecules/features";
+import Clients from "./molecules/clients";
+import Goals from "./molecules/goals";
+import Headlines from "./molecules/headlines";
+import Extra from "./molecules/Extra";
 
 const ComHome = () => {
   return (
